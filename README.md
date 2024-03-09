@@ -2,6 +2,7 @@
 
 ## Installation
 Create your database environment-independent with Docker
+
 1.
 ```bash
 docker pull mongo:latest
