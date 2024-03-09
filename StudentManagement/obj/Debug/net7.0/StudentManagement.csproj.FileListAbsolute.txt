@@ -31,3 +31,16 @@ C:\Users\yusuf\RiderProjects\StudentManagement\StudentManagement\obj\Debug\net7.
 C:\Users\yusuf\RiderProjects\StudentManagement\StudentManagement\obj\Debug\net7.0\StudentManagement.pdb
 C:\Users\yusuf\RiderProjects\StudentManagement\StudentManagement\obj\Debug\net7.0\StudentManagement.genruntimeconfig.cache
 C:\Users\yusuf\RiderProjects\StudentManagement\StudentManagement\obj\Debug\net7.0\ref\StudentManagement.dll
+C:\Users\yusuf\RiderProjects\StudentManagement\StudentManagement\bin\Debug\net7.0\AWSSDK.Core.dll
+C:\Users\yusuf\RiderProjects\StudentManagement\StudentManagement\bin\Debug\net7.0\AWSSDK.SecurityToken.dll
+C:\Users\yusuf\RiderProjects\StudentManagement\StudentManagement\bin\Debug\net7.0\DnsClient.dll
+C:\Users\yusuf\RiderProjects\StudentManagement\StudentManagement\bin\Debug\net7.0\MongoDB.Bson.dll
+C:\Users\yusuf\RiderProjects\StudentManagement\StudentManagement\bin\Debug\net7.0\MongoDB.Driver.dll
+C:\Users\yusuf\RiderProjects\StudentManagement\StudentManagement\bin\Debug\net7.0\MongoDB.Driver.Core.dll
+C:\Users\yusuf\RiderProjects\StudentManagement\StudentManagement\bin\Debug\net7.0\MongoDB.Libmongocrypt.dll
+C:\Users\yusuf\RiderProjects\StudentManagement\StudentManagement\bin\Debug\net7.0\SharpCompress.dll
+C:\Users\yusuf\RiderProjects\StudentManagement\StudentManagement\bin\Debug\net7.0\Snappier.dll
+C:\Users\yusuf\RiderProjects\StudentManagement\StudentManagement\bin\Debug\net7.0\ZstdSharp.dll
+C:\Users\yusuf\RiderProjects\StudentManagement\StudentManagement\bin\Debug\net7.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\yusuf\RiderProjects\StudentManagement\StudentManagement\bin\Debug\net7.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\yusuf\RiderProjects\StudentManagement\StudentManagement\bin\Debug\net7.0\runtimes\win\native\mongocrypt.dll

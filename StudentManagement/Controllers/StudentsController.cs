@@ -20,7 +20,7 @@ public class StudentsController : ControllerBase
         return _studentService.Get();
     }
     //Get: api/<StudentsController>5
-    [HttpGet("{id}")]
+    [HttpGet("id={id}")]
     public ActionResult<Student> Get(string id)
     {
         var student = _studentService.Get(id);
@@ -40,7 +40,7 @@ public class StudentsController : ControllerBase
 
     }
     //Put: api/<StudentsController>
-    [HttpPut("{id}")]
+    [HttpPut("id={id}")]
     public ActionResult Put(string id, [FromBody] Student student)
     {
         var existingStudent = _studentService.Get(id);
@@ -55,7 +55,7 @@ public class StudentsController : ControllerBase
 
     }
     //Delete api/<StudentsController>/5
-    [HttpDelete("{id}")]
+    [HttpDelete("id={id}")]
     public ActionResult Delete(string id)
     {
         var student = _studentService.Get(id);
