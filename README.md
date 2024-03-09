@@ -1,7 +1,7 @@
 # Simple CRUD Operations with .Net Core and MongoDB
 
 ## Installation
-Create your database environment-independent with Docker
+Create your environment-independent database with Docker
 
 1. Pull the MongoDB container.
 ```bash
