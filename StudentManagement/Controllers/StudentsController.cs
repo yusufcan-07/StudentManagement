@@ -21,19 +21,52 @@ public class StudentsController : ControllerBase
     }
     //Get: api/<StudentsController>5
     [HttpGet("{id}")]
-    public string Get(int id)
+    public ActionResult<Student> Get(string id)
     {
-        return "value";
+        var student = _studentService.Get(id);
+        if (student == null)
+        { 
+            return NotFound($"Student with Id = {id} not found!");
+        }
+
+        return student;
     }
     //Post: api/<StudentsController>
     [HttpPost]
-    public void Post([FromBody] string value)
+    public ActionResult<Student> Post([FromBody] Student student)
     {
+        _studentService.Create(student);
+        return CreatedAtAction(nameof(Get), new { id = student.Id }, student);
+
     }
     //Put: api/<StudentsController>
     [HttpPut("{id}")]
-    public void Put(int id, [FromBody] string value)
+    public ActionResult Put(string id, [FromBody] Student student)
     {
+        var existingStudent = _studentService.Get(id);
+
+        if (existingStudent == null)
+        {
+            return NotFound($"Student with Id = {id} not found!");
+        }
+        _studentService.Update(id, student);
+
+        return NoContent();
+
+    }
+    //Delete api/<StudentsController>/5
+    [HttpDelete("{id}")]
+    public ActionResult Delete(string id)
+    {
+        var student = _studentService.Get(id);
+        if (student == null)
+        {
+            return NotFound($"Student with Id = {id} not found!");
+        }
+        _studentService.Delete(student.Id);
+
+        return Ok($"Student with Id = {id} deleted!");
+
     }
 
 }
